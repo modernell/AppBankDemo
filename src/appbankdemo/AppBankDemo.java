@@ -82,6 +82,7 @@ public class AppBankDemo {
                     break;
                     
                 default:
+                    System.out.println("Opción no válida");
                     
             } //Fin Switch
             
