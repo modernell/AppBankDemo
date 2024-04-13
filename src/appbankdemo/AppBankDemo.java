@@ -26,15 +26,23 @@ public class AppBankDemo {
         System.out.println("Saldo disponible: " + saldoDisponible + "$" );        
         System.out.println("\n ******************************");
         
+        String menu = """
+                      *** Escriba el número de la opción deseada ***
+                      1 - Consultar Saldo
+                      2 - Retirar
+                      3 - Depositar
+                      9 - Salir
+                      """;
+        
         
         
         while (opcion <= 8){ 
             
-            System.out.println("** Escriba el número de la opción deseada **");
-            System.out.println("1 - Consultar Saldo");
-            System.out.println("2 - Retirar");
-            System.out.println("3 - Depositar");
-            System.out.println("9 - Salir");
+//            System.out.println("*** Escriba el número de la opción deseada ***");
+//            System.out.println("1 - Consultar Saldo");
+//            System.out.println("2 - Retirar");
+//            System.out.println("3 - Depositar");
+//            System.out.println("9 - Salir");
             opcion = teclado.nextInt();  // Read user input
             
             
