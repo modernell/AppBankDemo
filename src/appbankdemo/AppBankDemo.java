@@ -42,7 +42,8 @@ public class AppBankDemo {
 //            System.out.println("1 - Consultar Saldo");
 //            System.out.println("2 - Retirar");
 //            System.out.println("3 - Depositar");
-//            System.out.println("9 - Salir");
+//            System.out.println("9 - Salir");            
+            System.out.println(menu);
             opcion = teclado.nextInt();  // Read user input
             
             
