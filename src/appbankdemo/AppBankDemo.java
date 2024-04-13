@@ -17,11 +17,14 @@ public class AppBankDemo {
         int opcion = 0;
         double saldoDisponible = 1599.99;
         
+        String nombre = "Tony Stark";
+        String tipoDeCuenta = "Corriente";
+        
         System.out.println("******************************");
-        System.out.println("Nombre del Cliente: Tony Stark");
-        System.out.println("Tipo de cuenta: Corriente");
+        System.out.println("\n Nombre del Cliente: " + nombre);
+        System.out.println("Tipo de cuenta: " + tipoDeCuenta);
         System.out.println("Saldo disponible: " + saldoDisponible + "$" );        
-        System.out.println("******************************");
+        System.out.println("\n ******************************");
         
         
         
